@@ -1,0 +1,66 @@
+MonkeyMania CSV Fix Prompt Template
+Copy and paste this prompt when you need to fix a CSV file for Mon Kee:
+
+Prompt:
+I need you to help me fix a CSV file for my MonkeyMania trading system. The CSV has missing price data that prevents Mon Kee from executing trades.
+Here's what I need:
+
+Fill missing Pre-market Close prices using this priority:
+
+If "Price" column has a valid value (>0), use that
+If no Price but "Gap % 1 day" exists, calculate: Price = 5.0 * (1 + Gap% / 100)
+If volume is very high (>10M) but no price, estimate at $3.00
+If volume is moderate (1M-10M), estimate at $5.00
+Otherwise, mark as $1.00 with a note
+
+
+Add a new column called "Mon_Kee_Price" that contains:
+
+The best available price from above logic
+Never blank or NaN
+Always positive numbers
+
+
+Add a "Price_Source" column that indicates:
+
+"premarket" if from Pre-market Close
+"regular" if from Price column
+"gap_estimate" if calculated from gap
+"volume_estimate" if estimated from volume
+"default" if using $1.00 fallback
+
+
+Clean up data:
+
+Ensure all tickers are uppercase
+Remove any rows where Symbol is blank
+Round all prices to 2 decimal places
+Ensure percentage values are numbers (not strings with % symbol)
+
+
+Sort the data by:
+
+First by Gap % 1 day (descending)
+Then by Volume 1 day (descending)
+
+
+
+Example of what the output should look like:
+Symbol | Description | Pre-market Close | Price | Mon_Kee_Price | Price_Source | Gap % 1 day | Volume 1 day
+AAPL   | Apple Inc.  | 150.25          | 150.30| 150.25        | premarket    | 2.5         | 50000000
+TSLA   | Tesla Inc.  | NaN             | 250.00| 250.00        | regular      | 5.0         | 30000000
+MEME   | Meme Stock  | NaN             | NaN   | 5.50          | gap_estimate | 10.0        | 20000000
+Please process the CSV and ensure Mon Kee can trade every stock by having valid prices for all rows.
+
+Additional Context to Include:
+When you upload your CSV, also mention:
+
+The date of the data (if known)
+Whether it's pre-market or post-market data
+Any specific stocks you want to ensure have accurate prices
+Your preferred default price for unknown stocks (if different from $1.00)
+
+Example Usage:
+"Here's my movers_pre6_4.csv file from June 4th pre-market data. Please fix it according to the MonkeyMania CSV format requirements above. For any biotech stocks (check description), use $2.00 as the default instead of $1.00."
+
+

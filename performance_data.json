@@ -1,0 +1,105 @@
+{
+  "pattern_performance": {
+    "gap_and_go": {
+      "wins": 0,
+      "losses": 0,
+      "total_pnl": 0,
+      "trades": []
+    },
+    "momentum_surge": {
+      "wins": 0,
+      "losses": 0,
+      "total_pnl": 0,
+      "trades": []
+    },
+    "volume_spike": {
+      "wins": 0,
+      "losses": 0,
+      "total_pnl": 0,
+      "trades": []
+    },
+    "breakout": {
+      "wins": 0,
+      "losses": 0,
+      "total_pnl": 0,
+      "trades": []
+    },
+    "reversal": {
+      "wins": 0,
+      "losses": 0,
+      "total_pnl": 0,
+      "trades": []
+    },
+    "consolidation": {
+      "wins": 0,
+      "losses": 0,
+      "total_pnl": 0,
+      "trades": []
+    },
+    "unknown": {
+      "wins": 0,
+      "losses": 0,
+      "total_pnl": 0,
+      "trades": []
+    }
+  },
+  "time_performance": {
+    "premarket": {
+      "wins": 0,
+      "losses": 0,
+      "total_pnl": 0
+    },
+    "morning": {
+      "wins": 0,
+      "losses": 0,
+      "total_pnl": 0
+    },
+    "midday": {
+      "wins": 0,
+      "losses": 0,
+      "total_pnl": 0
+    },
+    "afternoon": {
+      "wins": 0,
+      "losses": 0,
+      "total_pnl": 0
+    },
+    "power_hour": {
+      "wins": 0,
+      "losses": 0,
+      "total_pnl": 0
+    }
+  },
+  "market_conditions": {
+    "trending_up": {
+      "wins": 0,
+      "losses": 0,
+      "total_pnl": 0
+    },
+    "trending_down": {
+      "wins": 0,
+      "losses": 0,
+      "total_pnl": 0
+    },
+    "choppy": {
+      "wins": 0,
+      "losses": 0,
+      "total_pnl": 0
+    },
+    "low_volatility": {
+      "wins": 0,
+      "losses": 0,
+      "total_pnl": 0
+    },
+    "high_volatility": {
+      "wins": 0,
+      "losses": 0,
+      "total_pnl": 0
+    }
+  },
+  "metadata": {
+    "last_updated": "2025-06-05T23:11:26.507913",
+    "total_trades_analyzed": 0,
+    "tracking_start_date": "2025-06-05T23:10:59.206204"
+  }
+}

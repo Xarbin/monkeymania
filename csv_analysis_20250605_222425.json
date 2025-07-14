@@ -1,0 +1,122 @@
+{
+  "file": "C:/Users/bgrif/OneDrive/Desktop/Monkey Mania/movers pre-market/movers_pre6_4.csv",
+  "rows": 116,
+  "columns": [
+    "Symbol",
+    "Description",
+    "Pre-market Close",
+    "Pre-market Close - Currency",
+    "Pre-market Change %",
+    "Pre-market Gap %",
+    "Pre-market Volume",
+    "Price",
+    "Price - Currency",
+    "Price Change % 1 day",
+    "Gap % 1 day",
+    "Volume 1 day",
+    "Volume Change % 1 day",
+    "Post-market Close",
+    "Post-market Close - Currency",
+    "Post-market Change %",
+    "Post-market Volume"
+  ],
+  "sample_data": {
+    "Symbol": {
+      "0": "KPRX",
+      "1": "RSLS",
+      "2": "TRAW"
+    },
+    "Description": {
+      "0": "Kiora Pharmaceuticals, Inc.",
+      "1": "ReShape Lifesciences, Inc.",
+      "2": "Traws Pharma, Inc."
+    },
+    "Pre-market Close": {
+      "0": 3.45,
+      "1": 5.73,
+      "2": 1.84
+    },
+    "Pre-market Close - Currency": {
+      "0": "USD",
+      "1": "USD",
+      "2": "USD"
+    },
+    "Pre-market Change %": {
+      "0": -11.538461538461531,
+      "1": -15.111111111111104,
+      "2": -1.6042780748663117
+    },
+    "Pre-market Gap %": {
+      "0": -7.94871794871795,
+      "1": -10.814814814814822,
+      "2": -6.951871657754016
+    },
+    "Pre-market Volume": {
+      "0": 96629.0,
+      "1": 103833.0,
+      "2": 310095.0
+    },
+    "Price": {
+      "0": 3.9,
+      "1": 6.75,
+      "2": 1.87
+    },
+    "Price - Currency": {
+      "0": "USD",
+      "1": "USD",
+      "2": "USD"
+    },
+    "Price Change % 1 day": {
+      "0": 36.84210526315789,
+      "1": 56.6125290023202,
+      "2": 31.690140845070434
+    },
+    "Gap % 1 day": {
+      "0": 38.59649122807018,
+      "1": 32.714617169373554,
+      "2": 78.16901408450704
+    },
+    "Volume 1 day": {
+      "0": 24589649,
+      "1": 57640834,
+      "2": 62770662
+    },
+    "Volume Change % 1 day": {
+      "0": 898316.1125319693,
+      "1": 82468.16215441913,
+      "2": 45470.52357997445
+    },
+    "Post-market Close": {
+      "0": NaN,
+      "1": NaN,
+      "2": NaN
+    },
+    "Post-market Close - Currency": {
+      "0": NaN,
+      "1": NaN,
+      "2": NaN
+    },
+    "Post-market Change %": {
+      "0": NaN,
+      "1": NaN,
+      "2": NaN
+    },
+    "Post-market Volume": {
+      "0": NaN,
+      "1": NaN,
+      "2": NaN
+    }
+  },
+  "issues": [],
+  "nan_columns": {
+    "Pre-market Close": 53,
+    "Pre-market Close - Currency": 53,
+    "Pre-market Change %": 53,
+    "Pre-market Gap %": 53,
+    "Pre-market Volume": 53,
+    "Post-market Close": 116,
+    "Post-market Close - Currency": 116,
+    "Post-market Change %": 116,
+    "Post-market Volume": 116
+  }
+}

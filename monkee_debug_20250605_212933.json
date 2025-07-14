@@ -1,0 +1,182 @@
+{
+  "timestamp": "2025-06-05T21:29:33.068311",
+  "version": "MonkeyMania 3.1",
+  "sections": {
+    "system_state": {
+      "current_balance": 8000.0,
+      "starting_balance": 10000.0,
+      "open_trades": 5,
+      "total_trades": 0,
+      "csv_loaded": {
+        "premarket": "C:/Users/bgrif/OneDrive/Desktop/Monkey Mania/movers pre-market/movers_pre.csv",
+        "postmarket": null
+      }
+    },
+    "performance": {
+      "pattern_stats": {
+        "gap_and_go": {
+          "pattern": "gap_and_go",
+          "total_trades": 0,
+          "win_rate": 0,
+          "avg_pnl": 0,
+          "total_pnl": 0,
+          "profit_factor": 0,
+          "expectancy": 0
+        },
+        "momentum_surge": {
+          "pattern": "momentum_surge",
+          "total_trades": 0,
+          "win_rate": 0,
+          "avg_pnl": 0,
+          "total_pnl": 0,
+          "profit_factor": 0,
+          "expectancy": 0
+        },
+        "volume_spike": {
+          "pattern": "volume_spike",
+          "total_trades": 0,
+          "win_rate": 0,
+          "avg_pnl": 0,
+          "total_pnl": 0,
+          "profit_factor": 0,
+          "expectancy": 0
+        },
+        "breakout": {
+          "pattern": "breakout",
+          "total_trades": 0,
+          "win_rate": 0,
+          "avg_pnl": 0,
+          "total_pnl": 0,
+          "profit_factor": 0,
+          "expectancy": 0
+        },
+        "reversal": {
+          "pattern": "reversal",
+          "total_trades": 0,
+          "win_rate": 0,
+          "avg_pnl": 0,
+          "total_pnl": 0,
+          "profit_factor": 0,
+          "expectancy": 0
+        },
+        "consolidation": {
+          "pattern": "consolidation",
+          "total_trades": 0,
+          "win_rate": 0,
+          "avg_pnl": 0,
+          "total_pnl": 0,
+          "profit_factor": 0,
+          "expectancy": 0
+        },
+        "unknown": {
+          "pattern": "unknown",
+          "total_trades": 0,
+          "win_rate": 0,
+          "avg_pnl": 0,
+          "total_pnl": 0,
+          "profit_factor": 0,
+          "expectancy": 0
+        }
+      },
+      "quick_insights": []
+    },
+    "recent_trades": [],
+    "xp_state": {
+      "total_xp": 0,
+      "skills": [
+        {
+          "skill": "volume_mastery",
+          "display_name": "\ud83d\udcca Volume Mastery",
+          "level": 1,
+          "xp": 0,
+          "progress": 0.0
+        },
+        {
+          "skill": "gap_instinct",
+          "display_name": "\u26a1 Gap Instinct",
+          "level": 1,
+          "xp": 0,
+          "progress": 0.0
+        },
+        {
+          "skill": "float_accuracy",
+          "display_name": "\ud83e\ude99 Float Accuracy",
+          "level": 1,
+          "xp": 0,
+          "progress": 0.0
+        },
+        {
+          "skill": "sentiment_iq",
+          "display_name": "\ud83d\udcac Sentiment IQ",
+          "level": 1,
+          "xp": 0,
+          "progress": 0.0
+        },
+        {
+          "skill": "fundamental_blend",
+          "display_name": "\ud83e\uddee Fundamental Blend",
+          "level": 1,
+          "xp": 0,
+          "progress": 0.0
+        },
+        {
+          "skill": "machine_iq",
+          "display_name": "\ud83e\udde0 Machine IQ",
+          "level": 1,
+          "xp": 0,
+          "progress": 0.0
+        },
+        {
+          "skill": "momentum_mastery",
+          "display_name": "\ud83d\udcc8 Momentum Mastery",
+          "level": 1,
+          "xp": 0,
+          "progress": 0.0
+        },
+        {
+          "skill": "gap_fill_intuition",
+          "display_name": "\ud83c\udfaf Gap Fill Intuition",
+          "level": 1,
+          "xp": 0,
+          "progress": 0.0
+        },
+        {
+          "skill": "volume_surge_detector",
+          "display_name": "\ud83d\ude80 Volume Surge Detector",
+          "level": 1,
+          "xp": 0,
+          "progress": 0.0
+        },
+        {
+          "skill": "after_hours_oracle",
+          "display_name": "\ud83c\udf19 After Hours Oracle",
+          "level": 1,
+          "xp": 0,
+          "progress": 0.0
+        },
+        {
+          "skill": "slippage_awareness",
+          "display_name": "Slippage Awareness",
+          "level": 1,
+          "xp": 0,
+          "progress": 0.0
+        },
+        {
+          "skill": "execution_mastery",
+          "display_name": "Execution Mastery",
+          "level": 1,
+          "xp": 0,
+          "progress": 0.0
+        }
+      ]
+    },
+    "ml_model": {
+      "model_exists": false,
+      "training_data_exists": false
+    },
+    "data_quality": {
+      "issues_found": 0,
+      "issues": []
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "gap_and_go": {
+    "total_trades": 8,
+    "wins": 0,
+    "total_pnl": -12.1200000000001
+  },
+  "reversal": {
+    "total_trades": 8,
+    "wins": 4,
+    "total_pnl": 281.51999999999987
+  },
+  "volume_spike": {
+    "total_trades": 0,
+    "wins": 0,
+    "total_pnl": 0
+  },
+  "momentum_surge": {
+    "total_trades": 0,
+    "wins": 0,
+    "total_pnl": 0
+  },
+  "breakout": {
+    "total_trades": 4,
+    "wins": 0,
+    "total_pnl": -417.05679999999995
+  },
+  "consolidation": {
+    "total_trades": 0,
+    "wins": 0,
+    "total_pnl": 0
+  },
+  "unknown": {
+    "total_trades": 0,
+    "wins": 0,
+    "total_pnl": 0
+  }
+}

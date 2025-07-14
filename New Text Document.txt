@@ -1,0 +1,55 @@
+# NEW FILE: analysis/enhanced_features.py
+"""New enhanced analysis features to supplement existing system"""
+
+from analysis.candle_analyzer import CandleAnalyzer
+from analysis.opening_range_predictor import OpeningRangePredictor
+from analysis.volume_profiler import VolumeProfiler
+
+class EnhancedAnalyzer:
+    """Adds new analysis capabilities to existing system"""
+    
+    def __init__(self):
+        self.candle_analyzer = CandleAnalyzer()
+        self.opening_predictor = OpeningRangePredictor()
+        self.volume_profiler = VolumeProfiler()
+    
+    def enhance_ticker_analysis(self, existing_features, ticker_data):
+        """Add new analysis to existing features"""
+        
+        # Keep ALL existing features
+        enhanced = existing_features.copy()
+        
+        # ADD new candle analysis
+        if all(k in ticker_data for k in ['high', 'low', 'open', 'close']):
+            candle_features = self.candle_analyzer.create_synthetic_candles(
+                ticker_data.get('pre-market close', 0),
+                ticker_data.get('pre-market volume', 0),
+                ticker_data.get('post-market close', 0),
+                ticker_data.get('post-market volume', 0),
+                ticker_data['open'],
+                ticker_data['close'],
+                ticker_data['high'],
+                ticker_data['low']
+            )
+            enhanced.update(candle_features)
+        
+        # ADD volume profiling
+        volume_analysis = self.volume_profiler.analyze_volume_signature(
+            ticker_data.get('pre-market volume', 0),
+            ticker_data.get('volume', 0),
+            ticker_data.get('post-market volume', 0),
+            ticker_data.get('average volume', 100000),
+            ticker_data
+        )
+        enhanced['volume_profile'] = volume_analysis
+        
+        # ADD opening prediction
+        gap = existing_features.get('gap_pct', 0)
+        pre_vol_ratio = ticker_data.get('pre-market volume', 0) / ticker_data.get('average volume', 100000)
+        
+        opening_prediction = self.opening_predictor.predict_opening_behavior(
+            gap, pre_vol_ratio, 
+            ticker_data.get('previous close', 0),
+            'bullish' if gap > 0 else 'bearish'
+        )
+        enhanced['opening_prediction'] = opening_prediction

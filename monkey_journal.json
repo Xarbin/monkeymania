@@ -1,0 +1,16 @@
+{
+  "2025-06-05": [
+    {
+      "date": "2025-06-05",
+      "summary": "0 wins, 5 losses. Best predictor: ml_confidence",
+      "mood": "Hmm, tricky market \ud83e\udd14",
+      "score": 46.3,
+      "total_pnl": -36.91,
+      "win_rate": 0.0,
+      "trades": 5,
+      "insights": [
+        "\ud83d\udcca Calibrating fills... 0/10 real trades logged"
+      ]
+    }
+  ]
+}

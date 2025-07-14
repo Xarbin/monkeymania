@@ -1,0 +1,263 @@
+{
+  "timestamp": "2025-06-05T21:34:07.986798",
+  "version": "MonkeyMania 3.1",
+  "sections": {
+    "system_state": {
+      "current_balance": 9963.085799999999,
+      "starting_balance": 10000.0,
+      "open_trades": 0,
+      "total_trades": 5,
+      "csv_loaded": {
+        "premarket": "C:/Users/bgrif/OneDrive/Desktop/Monkey Mania/movers pre-market/movers_pre.csv",
+        "postmarket": "C:/Users/bgrif/OneDrive/Desktop/Monkey Mania/movers post-market/postmarket6_3.csv"
+      }
+    },
+    "performance": {
+      "pattern_stats": {
+        "gap_and_go": {
+          "pattern": "gap_and_go",
+          "total_trades": 0,
+          "win_rate": 0,
+          "avg_pnl": 0,
+          "total_pnl": 0,
+          "profit_factor": 0,
+          "expectancy": 0
+        },
+        "momentum_surge": {
+          "pattern": "momentum_surge",
+          "total_trades": 0,
+          "win_rate": 0,
+          "avg_pnl": 0,
+          "total_pnl": 0,
+          "profit_factor": 0,
+          "expectancy": 0
+        },
+        "volume_spike": {
+          "pattern": "volume_spike",
+          "total_trades": 0,
+          "win_rate": 0,
+          "avg_pnl": 0,
+          "total_pnl": 0,
+          "profit_factor": 0,
+          "expectancy": 0
+        },
+        "breakout": {
+          "pattern": "breakout",
+          "total_trades": 0,
+          "win_rate": 0,
+          "avg_pnl": 0,
+          "total_pnl": 0,
+          "profit_factor": 0,
+          "expectancy": 0
+        },
+        "reversal": {
+          "pattern": "reversal",
+          "total_trades": 0,
+          "win_rate": 0,
+          "avg_pnl": 0,
+          "total_pnl": 0,
+          "profit_factor": 0,
+          "expectancy": 0
+        },
+        "consolidation": {
+          "pattern": "consolidation",
+          "total_trades": 0,
+          "win_rate": 0,
+          "avg_pnl": 0,
+          "total_pnl": 0,
+          "profit_factor": 0,
+          "expectancy": 0
+        },
+        "unknown": {
+          "pattern": "unknown",
+          "total_trades": 0,
+          "win_rate": 0,
+          "avg_pnl": 0,
+          "total_pnl": 0,
+          "profit_factor": 0,
+          "expectancy": 0
+        }
+      },
+      "quick_insights": []
+    },
+    "recent_trades": [
+      {
+        "ticker": "KPRX",
+        "shares": 101,
+        "predicted_price": 3.93,
+        "buy_price": 3.93,
+        "slippage_adjusted": false,
+        "entry_slippage": 0,
+        "status": "closed",
+        "predicted_close": 3.9,
+        "close_price": 3.9,
+        "ideal_pnl": -3.030000000000025,
+        "pnl": -3.030000000000025,
+        "slippage_cost": 0.0,
+        "exit_slippage": 0,
+        "close_date": "2025-06-05"
+      },
+      {
+        "ticker": "MCTR",
+        "shares": 55,
+        "predicted_price": 7.23,
+        "buy_price": 7.23,
+        "slippage_adjusted": false,
+        "entry_slippage": 0,
+        "status": "closed",
+        "predicted_close": 7.23,
+        "close_price": 7.23,
+        "ideal_pnl": 0.0,
+        "pnl": 0.0,
+        "slippage_cost": 0.0,
+        "exit_slippage": 0,
+        "close_date": "2025-06-05"
+      },
+      {
+        "ticker": "TRAW",
+        "shares": 158,
+        "predicted_price": 2.5299,
+        "buy_price": 2.5299,
+        "slippage_adjusted": false,
+        "entry_slippage": 0,
+        "status": "closed",
+        "predicted_close": 1.87,
+        "close_price": 1.87,
+        "ideal_pnl": -104.26419999999999,
+        "pnl": -104.26419999999999,
+        "slippage_cost": 0.0,
+        "exit_slippage": 0,
+        "close_date": "2025-06-05"
+      },
+      {
+        "ticker": "SOAR",
+        "shares": 122,
+        "predicted_price": 3.26,
+        "buy_price": 3.26,
+        "slippage_adjusted": false,
+        "entry_slippage": 0,
+        "status": "closed",
+        "predicted_close": 3.26,
+        "close_price": 3.26,
+        "ideal_pnl": 0.0,
+        "pnl": 0.0,
+        "slippage_cost": 0.0,
+        "exit_slippage": 0,
+        "close_date": "2025-06-05"
+      },
+      {
+        "ticker": "RSLS",
+        "shares": 69,
+        "predicted_price": 5.73,
+        "buy_price": 5.73,
+        "slippage_adjusted": false,
+        "entry_slippage": 0,
+        "status": "closed",
+        "predicted_close": 6.75,
+        "close_price": 6.75,
+        "ideal_pnl": 70.37999999999997,
+        "pnl": 70.37999999999997,
+        "slippage_cost": 0.0,
+        "exit_slippage": 0,
+        "close_date": "2025-06-05"
+      }
+    ],
+    "xp_state": {
+      "total_xp": 14500,
+      "skills": [
+        {
+          "skill": "volume_mastery",
+          "display_name": "\ud83d\udcca Volume Mastery",
+          "level": 19,
+          "xp": 4000,
+          "progress": 5.030181086519115
+        },
+        {
+          "skill": "float_accuracy",
+          "display_name": "\ud83e\ude99 Float Accuracy",
+          "level": 17,
+          "xp": 3500,
+          "progress": 93.87254901960785
+        },
+        {
+          "skill": "momentum_mastery",
+          "display_name": "\ud83d\udcc8 Momentum Mastery",
+          "level": 17,
+          "xp": 3500,
+          "progress": 93.87254901960785
+        },
+        {
+          "skill": "gap_instinct",
+          "display_name": "\u26a1 Gap Instinct",
+          "level": 16,
+          "xp": 3000,
+          "progress": 68.37837837837839
+        },
+        {
+          "skill": "volume_surge_detector",
+          "display_name": "\ud83d\ude80 Volume Surge Detector",
+          "level": 5,
+          "xp": 500,
+          "progress": 89.51612903225806
+        },
+        {
+          "skill": "sentiment_iq",
+          "display_name": "\ud83d\udcac Sentiment IQ",
+          "level": 1,
+          "xp": 0,
+          "progress": 0.0
+        },
+        {
+          "skill": "fundamental_blend",
+          "display_name": "\ud83e\uddee Fundamental Blend",
+          "level": 1,
+          "xp": 0,
+          "progress": 0.0
+        },
+        {
+          "skill": "machine_iq",
+          "display_name": "\ud83e\udde0 Machine IQ",
+          "level": 1,
+          "xp": 0,
+          "progress": 0.0
+        },
+        {
+          "skill": "gap_fill_intuition",
+          "display_name": "\ud83c\udfaf Gap Fill Intuition",
+          "level": 1,
+          "xp": 0,
+          "progress": 0.0
+        },
+        {
+          "skill": "after_hours_oracle",
+          "display_name": "\ud83c\udf19 After Hours Oracle",
+          "level": 1,
+          "xp": 0,
+          "progress": 0.0
+        },
+        {
+          "skill": "slippage_awareness",
+          "display_name": "Slippage Awareness",
+          "level": 1,
+          "xp": 0,
+          "progress": 0.0
+        },
+        {
+          "skill": "execution_mastery",
+          "display_name": "Execution Mastery",
+          "level": 1,
+          "xp": 0,
+          "progress": 0.0
+        }
+      ]
+    },
+    "ml_model": {
+      "model_exists": true,
+      "training_data_exists": true
+    },
+    "data_quality": {
+      "issues_found": 0,
+      "issues": []
+    }
+  }
+}
